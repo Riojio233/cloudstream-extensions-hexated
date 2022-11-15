@@ -1,0 +1,265 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tube.perverzija.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 13905,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "coxju, megix"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "Category-Perverzija",
+        "description": "Contains all the videos from Perverzija",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/Category-Perverzija.cs3",
+        "name": "Category-Perverzija"
+    },
+    {
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 6184,
+        "status": 3,
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 2,
+        "internalName": "Common",
+        "description": "Required by other providers",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/Common.cs3",
+        "name": "Common"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=fullporner.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 13167,
+        "status": 0,
+        "language": "en",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "FullPorner",
+        "description": "",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/FullPorner.cs3",
+        "name": "FullPorner"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=goodporn.to&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 10923,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 7,
+        "internalName": "GoodPorn",
+        "description": "Premium porn with 4K support (use VPN if links not working)",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/GoodPorn.cs3",
+        "name": "GoodPorn"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=146.19.24.137&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 15871,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 1,
+        "internalName": "MultiplexProvider",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/MultiplexProvider.cs3",
+        "name": "MultiplexProvider"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=en.paradisehill.cc&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 11215,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 4,
+        "internalName": "Paradisehill",
+        "description": "Series porn (use VPN if links not working)",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/Paradisehill.cs3",
+        "name": "Paradisehill"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tube.perverzija.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 15064,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "coxju, megix"
+        ],
+        "tvTypes": [
+            "NSFW"
+        ],
+        "version": 1,
+        "internalName": "Studios-Perverzija",
+        "description": "Contains all the videos from Perverzija",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/Studios-Perverzija.cs3",
+        "name": "Studios-Perverzija"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=time4tv.stream&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 19526,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 7,
+        "internalName": "TimefourTv",
+        "description": "Sport Live Stream",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/TimefourTv.cs3",
+        "name": "TimefourTv"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=topdocumentaryfilms.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 10142,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "Documentary"
+        ],
+        "version": 1,
+        "internalName": "Topdocumentaryfilms",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/Topdocumentaryfilms.cs3",
+        "name": "Topdocumentaryfilms"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tv247.us&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 9549,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 2,
+        "internalName": "Tvtwofourseven",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/Tvtwofourseven.cs3",
+        "name": "Tvtwofourseven"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=useetv.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 9480,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 2,
+        "internalName": "UseeTv",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/UseeTv.cs3",
+        "name": "UseeTv"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=www.wcofun.com&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 14969,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "version": 2,
+        "internalName": "WcofunProvider",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/WcofunProvider.cs3",
+        "name": "WcofunProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/hexated/cloudstream-extensions-hexated/master/Xcinetop/icon.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 17474,
+        "status": 1,
+        "language": "de",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 2,
+        "internalName": "Xcinetop",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/Xcinetop.cs3",
+        "name": "Xcinetop"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=yomovies.ink&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Riojio233/cloudstream-extensions-hexated",
+        "fileSize": 13697,
+        "status": 1,
+        "language": "hi",
+        "authors": [
+            "Hexated"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "version": 9,
+        "internalName": "YomoviesProvider",
+        "url": "https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/YomoviesProvider.cs3",
+        "name": "YomoviesProvider"
+    }
+]
