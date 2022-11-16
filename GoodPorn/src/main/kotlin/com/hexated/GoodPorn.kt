@@ -62,7 +62,7 @@ class GoodPorn : MainAPI() {
         for (i in 1..24) {
             val document =
                 app.get(
-                    "$mainUrl/search/nikki-benz/?mode=async&function=get_block&block_id=list_videos_videos_list_search_result&q=$query&category_ids=&sort_by=latest&from_videos=$i&from_albums=$i",
+                    "$mainUrl/search/nikki-benz/?mode=async&function=get_block&block_id=list_videos_videos_list_search_result&q=$query&category_ids=&sort_by=2&from_videos=$i&from_albums=$i",
                     headers = mapOf("X-Requested-With" to "XMLHttpRequest")
                 ).document
             val results =
