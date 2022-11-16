@@ -24,7 +24,7 @@ class GoodPorn : MainAPI() {
         "$mainUrl/channels/digitalplayground/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=" to "Digital Playground",
         "$mainUrl/channels/realitykings/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=" to "Realitykings",
         "$mainUrl/channels/mofos/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=" to "mofos",
-        "$mainUrl/categories/?mode=" to "categories",
+        "$mainUrl/categories/big-ass/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=" to "Big Ass",
     )
 
     override suspend fun getMainPage(
