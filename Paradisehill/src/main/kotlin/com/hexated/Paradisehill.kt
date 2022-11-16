@@ -51,7 +51,7 @@ class Paradisehill : MainAPI() {
     override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
         for (i in 1..10) {
-            val document = app.get("$mainUrl/search/?pattern=$query&what=1&page=$i").document
+            val document = app.get("$mainUrl/search/?pattern=$query&what=3&page=$i").document
             val results = document.select("div.content div.item")
                 .mapNotNull {
                     it.toSearchResult()
