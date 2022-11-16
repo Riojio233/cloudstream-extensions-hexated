@@ -21,8 +21,9 @@ class Paradisehill : MainAPI() {
         "$mainUrl/studio/29/?sort=created_at&page=" to "Digital Playground",
         "$mainUrl/studio/16/?sort=created_at&page=" to "Evil Angel",
         "$mainUrl/studio/6/?sort=created_at&page=" to "Bang Bros Productions",
-        "$mainUrl/studio/78/?sort=created_at&page=" to "Jules Jordan Video",
+        "$mainUrl/studio/637/?sort=created_at&page=" to "Team Skeet",
         "$mainUrl/studio/64/?sort=created_at&page=" to "Reality Kings",
+        "$mainUrl/studio/196/?sort=created_at&page=" to "21 Sextury"
     )
 
     override suspend fun getMainPage(
@@ -50,8 +51,8 @@ class Paradisehill : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
-        for (i in 1..10) {
-            val document = app.get("$mainUrl/search/?pattern=$query&what=3&page=$i").document
+        for (i in 1..15) {
+            val document = app.get("$mainUrl/search/?pattern=$query&what=1&page=$i").document
             val results = document.select("div.content div.item")
                 .mapNotNull {
                     it.toSearchResult()
