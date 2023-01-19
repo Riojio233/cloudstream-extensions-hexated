@@ -24,7 +24,7 @@ class GoodPorn : MainAPI() {
         "$mainUrl/channels/digitalplayground/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=" to "Digital Playground",
         "$mainUrl/channels/realitykings/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=" to "Realitykings",
         "$mainUrl/channels/mofos/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=" to "mofos",
-        "$mainUrl/categories/big-ass/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from=" to "Big Ass",
+        "https://fullporner.com/category/big-ass" to "Big Ass",
     )
 
     override suspend fun getMainPage(
@@ -62,7 +62,7 @@ class GoodPorn : MainAPI() {
         for (i in 1..24) {
             val document =
                 app.get(
-                    "https://fullporner.com/search/nikki-benz/?mode=async&function=get_block&block_id=list_videos_videos_list_search_result&q=$query&category_ids=&sort_by=2&from_videos=$i&from_albums=$i",
+                    "$mainUrl/search/nikki-benz/?mode=async&function=get_block&block_id=list_videos_videos_list_search_result&q=$query&category_ids=&sort_by=2&from_videos=$i&from_albums=$i",
                     headers = mapOf("X-Requested-With" to "XMLHttpRequest")
                 ).document
             val results =
