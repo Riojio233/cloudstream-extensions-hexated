@@ -11,7 +11,6 @@ class GoodPorn : MainAPI() {
     override var name = "GoodPorn"
     override val hasMainPage = true
     override val hasDownloadSupport = true
-    override val vpnStatus = VPNStatus.MightBeNeeded
     override val supportedTypes = setOf(TvType.NSFW)
 
     override val mainPage = mainPageOf(
