@@ -13,7 +13,7 @@ buildscript {
         classpath("com.android.tools.build:gradle:7.0.4")
         // Cloudstream gradle plugin which makes everything work and builds plugins
         classpath("com.github.recloudstream:gradle:master-SNAPSHOT")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22")
     }
 }
 
@@ -42,11 +42,11 @@ subprojects {
     }
 
     android {
-        compileSdkVersion(32)
+        compileSdkVersion(33)
 
         defaultConfig {
             minSdk = 21
-            targetSdk = 32
+            targetSdk = 33
         }
 
         compileOptions {
@@ -77,11 +77,11 @@ subprojects {
         // but you dont need to include any of them if you dont need them
         // https://github.com/recloudstream/cloudstream/blob/master/app/build.gradle
         implementation(kotlin("stdlib")) // adds standard kotlin features, like listOf, mapOf etc
-        implementation("com.github.Blatzar:NiceHttp:0.3.5") // http library
-        implementation("org.jsoup:jsoup:1.13.1") // html parser
-        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1")
+        implementation("com.github.Blatzar:NiceHttp:0.4.5") // http library
+        implementation("org.jsoup:jsoup:1.17.2") // html parser
+        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.2")
         implementation("io.karn:khttp-android:0.1.2")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4") // html parser
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3") // html parser
         //run JS
         implementation("org.mozilla:rhino:1.7.14")
         implementation("com.google.code.gson:gson:2.8.9")
