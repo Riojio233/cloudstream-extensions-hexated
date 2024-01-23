@@ -87,8 +87,8 @@ class Perverzija : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
-        for (i in 1..10) {
-            val url = "$mainUrl/advanced-search/?_sft_category=${query.replace("+", "")}&_sf_s=${query.replace(" ", "+")}&sf_paged=$i"
+        for (i in 1..12) {
+            val url = "$mainUrl/advanced-search/?_sf_s=${query.replace(" ", "+")}&sf_paged=$i"
 
             val results = app.get(url, interceptor = cfInterceptor).document
                 .select("div.row div div.post").mapNotNull {
