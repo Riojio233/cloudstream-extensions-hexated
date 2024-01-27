@@ -40,11 +40,17 @@ class Perverzija : MainAPI() {
         "$mainUrl/full-movie/page/%d/?orderby=date" to "Latest Movies",
         "$mainUrl/full-movie/page/%d/?orderby=view" to "Most Viewed Movies",
         "$mainUrl/full-movie/page/%d/?orderby=like" to "Most Liked Movies",
+        "$mainUrl/studio/teamskeet/page/%d/" to "Team Skeet",
+        "$mainUrl/studio/private/page/%d/" to "Private",
+        "$mainUrl/studio/brazzers/page/%d/" to "Brazzers",
+        "$mainUrl/studio/bangbros/page/%d/" to "Bang Bros",
+        "$mainUrl/studio/adulttime/page/%d/" to "Adult Time",
         "$mainUrl/tag/big-ass/page/%d/" to "Big Ass",
         "$mainUrl/tag/squirt/page/%d/" to "Squirting",
         "$mainUrl/tag/yoga/page/%d/" to "Yoga",
         "$mainUrl/tag/double-penetration/page/%d/" to "DP",
-        "$mainUrl/tag/outdoor/page/%d/" to "Outdoor",
+        "$mainUrl/tag/wife/page/%d/" to "Wife",
+        "$mainUrl/tag/wedding/page/%d/" to "Wedding",
     )
 
     override suspend fun getMainPage(
@@ -87,7 +93,7 @@ class Perverzija : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
-        for (i in 1..5) {
+        for (i in 1..6) {
             val url = "$mainUrl/page/$i/?s=${query.replace(" ", "+")}"
 
             val results = app.get(url, interceptor = cfInterceptor).document
