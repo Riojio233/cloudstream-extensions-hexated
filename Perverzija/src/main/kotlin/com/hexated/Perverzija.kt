@@ -118,8 +118,8 @@ class Perverzija : MainAPI() {
         val tags = document.select("div.item-tax-list div a").map { it.text() }
 
         val recommendations =
-            document.select("div.related-gallery div.gallery-item").mapNotNull {
-                it.toSearchResult()
+            document.select("div.rpbt-related-gallery div.gallery-item").mapNotNull {
+                it.toRecommendationResult()
             }
 
         return newMovieLoadResponse(title, url, TvType.NSFW, url) {
