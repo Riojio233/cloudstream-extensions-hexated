@@ -4,7 +4,7 @@
 
 > Used to load providers for [Cloudstream](https://github.com/recloudstream/cloudstream)
 
-<a href="https://cutt.ly/dirhex">
+<a href="https://raw.githubusercontent.com/Riojio233/cloudstream-extensions-hexated/builds/repo.json">
  <img src="https://img.shields.io/badge/-DOWNLOAD%20EXTENSION-brightgreen" alt="download"/>
 </a>
 
