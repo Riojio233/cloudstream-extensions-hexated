@@ -119,7 +119,7 @@ class Perverzija : MainAPI() {
 
         val recommendations =
             document.select("div.related-gallery div.gallery-item").mapNotNull {
-                it.toRecommendationResult()
+                it.toSearchResult()
             }
 
         return newMovieLoadResponse(title, url, TvType.NSFW, url) {
