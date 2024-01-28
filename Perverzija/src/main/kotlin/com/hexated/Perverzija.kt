@@ -118,7 +118,7 @@ class Perverzija : MainAPI() {
         val tags = document.select("div.item-tax-list div a").map { it.text() }
 
         val recommendations =
-            document.select("div.related-gallery").mapNotNull {
+            document.select("div.related-gallery dl.gallery-item").mapNotNull {
                 it.toRecommendationResult()
             }
 
