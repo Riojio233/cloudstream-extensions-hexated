@@ -145,7 +145,7 @@ class FullPorner : MainAPI() {
                 iframeUrl, interceptor = WebViewResolver(Regex("""mydaddy"""))
             ).document
             val videoDocument = Jsoup.parse(
-                "<video" + iframeDocument.selectXpath("//script[contains(text()),'\$(\"#jw\").html(')]")
+                "<video" + iframeDocument.selectXpath("//script[contains(text(),'\$(\"#jw\").html(')]")
                     .first()?.toString()
                     ?.replace("\\", "")?.substringAfter("<video")?.substringAfter("<video")
                     ?.substringBefore("</video>") + "</video>"
@@ -163,7 +163,7 @@ class FullPorner : MainAPI() {
         } else {
             val iframeDocument = app.get(iframeUrl).document
             val videoDocument = Jsoup.parse(
-                "<video" + iframeDocument.selectXpath("//script[contains(text()),'\$(\"#jw\").html(')]")
+                "<video" + iframeDocument.selectXpath("//script[contains(text(),'\$(\"#jw\").html(')]")
                     .first()?.toString()
                     ?.replace("\\", "")?.substringAfter("<video")
                     ?.substringBefore("</video>") + "</video>"
