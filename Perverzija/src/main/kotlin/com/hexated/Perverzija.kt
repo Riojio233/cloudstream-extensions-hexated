@@ -71,7 +71,6 @@ class Perverzija : MainAPI() {
         "$mainUrl/studio/xempire/page/%d/" to "XEmpire",
         "$mainUrl/studio/sexmex/page/%d/" to "SexMex",
         "$mainUrl/studio/pornworld/page/%d/" to "PornWorld",
-        "$mainUrl/studio/metartnetwork/page/%d/" to "MetArtNetwork",
         "$mainUrl/studio/vxn/tushy/page/%d/" to "Tushy",
     )
 
