@@ -51,6 +51,7 @@ class Perverzija : MainAPI() {
         "$mainUrl/studio/brazzers/page/%d/" to "Brazzers",
         "$mainUrl/studio/bangbros/page/%d/" to "Bang Bros",
         "$mainUrl/studio/realitykings/page/%d/" to "Reality Kings",
+        "$mainUrl/studio/naughtyamerica/page/%d/" to "NaughtyAmerica",
         "$mainUrl/studio/nubiles/page/%d/" to "Nubiles",
         "$mainUrl/studio/adulttime/page/%d/" to "Adult Time",
         "$mainUrl/studio/vxn/tushy/page/%d/" to "Tushy",
