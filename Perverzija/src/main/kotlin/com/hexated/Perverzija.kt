@@ -51,7 +51,6 @@ class Perverzija : MainAPI() {
         "$mainUrl/tag/double-penetration/page/%d/" to "DP",
         "$mainUrl/tag/wife/page/%d/" to "Wife",
         "$mainUrl/tag/wedding/page/%d/" to "Wedding",
-        "$mainUrl/studios/" to "Studios",
     )
 
     override suspend fun getMainPage(
