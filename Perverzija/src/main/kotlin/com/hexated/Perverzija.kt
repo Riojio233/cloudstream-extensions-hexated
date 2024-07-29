@@ -98,7 +98,7 @@ class Perverzija : MainAPI() {
 
         return newHomePageResponse(
             list = HomePageList(
-                name = request.name, list = home, isHorizontalImages = false
+                name = request.name, list = home, isHorizontalImages = true
             ), hasNext = true
         )
     }
