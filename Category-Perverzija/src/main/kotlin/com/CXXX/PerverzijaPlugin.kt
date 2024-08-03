@@ -5,10 +5,10 @@ import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
 import com.lagradost.cloudstream3.plugins.Plugin
 
 @CloudstreamPlugin
-class category-PerverzijaPlugin : Plugin() {
+class PerverzijaPlugin : Plugin() {
     override fun load(context: Context) {
         // All providers should be added in this manner. Please don't edit the providers list directly.
-        registerMainAPI(category-Perverzija())
+        registerMainAPI(Perverzija())
         registerExtractorAPI(Xtremestream())
     }
 }
