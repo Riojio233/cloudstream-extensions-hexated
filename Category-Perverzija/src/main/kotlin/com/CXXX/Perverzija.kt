@@ -114,7 +114,7 @@ class Perverzija : MainAPI() {
             val url = if (query.contains(" ")) {
             "$mainUrl/page/$i/?s=${query.replace(" ", "+")}&orderby=date"
             } else {
-                "$mainUrl/advanced-search/?s=${query.replace(" ", "+")}&_sfm_hls_processed=1&sf_paged=$i"
+                "$mainUrl/advanced-search/?s=$query&_sfm_hls_processed=1&sf_paged=$i"
             }
 
             val results = app.get(url, interceptor = cfInterceptor).document
