@@ -32,40 +32,42 @@ class Perverzija : MainAPI() {
 
     override val mainPage = mainPageOf(
         "$mainUrl/page/%d/" to "Home",
-        "$mainUrl/tag/anal/page/%d/?orderby=date" to "anal",
+        "$mainUrl/tag/anal/page/%d/?orderby=date" to "Anal",
         "$mainUrl/tag/big-ass/page/%d/?orderby=date" to "Big Ass",
         "$mainUrl/tag/bubble-butt/page/%d/?orderby=date" to "Bubble Butt",
         "$mainUrl/tag/big-dick/page/%d/?orderby=date" to "Big Dick",
-        "$mainUrl/tag/caught/page/%d/?orderby=date" to "caught",
-        "$mainUrl/tag/cheating/page/%d/?orderby=date" to "cheating",
+        "$mainUrl/tag/caught/page/%d/?orderby=date" to "Caught",
+        "$mainUrl/tag/cheating/page/%d/?orderby=date" to "Cheating",
         "$mainUrl/tag/cheating-wife/page/%d/?orderby=date" to "Cheating Wife",
         "$mainUrl/tag/double-penetration/page/%d/?orderby=date" to "Double DP",
-        "$mainUrl/tag/doctor/page/%d/?orderby=date" to "doctor",
-        "$mainUrl/tag/family/page/%d/?orderby=date" to "family",
+        "$mainUrl/tag/doctor/page/%d/?orderby=date" to "Doctor",
+        "$mainUrl/tag/family/page/%d/?orderby=date" to "Family",
         "$mainUrl/tag/family-taboo/page/%d/?orderby=date" to "Family Taboo",
-        "$mainUrl/tag/foursome/page/%d/?orderby=date" to "foursome",
-        "$mainUrl/tag/hotwife/page/%d/?orderby=date" to "hotwife",
-        "$mainUrl/tag/latina/page/%d/?orderby=date" to "latina",
-        "$mainUrl/tag/massage/page/%d/?orderby=date" to "massage",
-        "$mainUrl/tag/nurse/page/%d/?orderby=date" to "nurse",
-        "$mainUrl/tag/office/page/%d/?orderby=date" to "office",
-        "$mainUrl/tag/old-and-young/page/%d/?orderby=date" to "OldYoung",
-        "$mainUrl/tag/outdoor/page/%d/?orderby=date" to "outdoor",
-        "$mainUrl/tag/orgy/page/%d/?orderby=date" to "orgy",
-        "$mainUrl/tag/parody/page/%d/?orderby=date" to "parody",
-        "$mainUrl/tag/police/page/%d/?orderby=date" to "police",
-        "$mainUrl/tag/squirt/page/%d/?orderby=date" to "squirt",
-        "$mainUrl/tag/shower/page/%d/?orderby=date" to "shower",
-        "$mainUrl/tag/sneaky/page/%d/?orderby=date" to "sneaky",
-        "$mainUrl/tag/sister/page/%d/?orderby=date" to "sister",
-        "$mainUrl/tag/threesome/page/%d/?orderby=date" to "threesome",
-        "$mainUrl/tag/tushy/page/%d/?orderby=date" to "tushy",
-        "$mainUrl/tag/teacher/page/%d/?orderby=date" to "teacher",
-        "$mainUrl/tag/wife/page/%d/?orderby=date" to "wife",
-        "$mainUrl/tag/waitress/page/%d/?orderby=date" to "waitress",
-        "$mainUrl/tag/wedding/page/%d/?orderby=date" to "wedding",
+        "$mainUrl/tag/foursome/page/%d/?orderby=date" to "Foursome",
+        "$mainUrl/tag/hotwife/page/%d/?orderby=date" to "Hotwife",
+        "$mainUrl/tag/latina/page/%d/?orderby=date" to "Latina",
+        "$mainUrl/tag/massage/page/%d/?orderby=date" to "Massage",
+        "$mainUrl/tag/nurse/page/%d/?orderby=date" to "Nurse",
+        "$mainUrl/tag/office/page/%d/?orderby=date" to "Office",
+        "$mainUrl/tag/old-and-young/page/%d/?orderby=date" to "Old and Young",
+        "$mainUrl/tag/outdoor/page/%d/?orderby=date" to "Outdoor",
+        "$mainUrl/tag/orgy/page/%d/?orderby=date" to "Orgy",
+        "$mainUrl/tag/parody/page/%d/?orderby=date" to "Parody",
+        "$mainUrl/tag/police/page/%d/?orderby=date" to "Police",
+        "$mainUrl/tag/squirt/page/%d/?orderby=date" to "Squirt",
+        "$mainUrl/tag/shower/page/%d/?orderby=date" to "Shower",
+        "$mainUrl/tag/sneaky/page/%d/?orderby=date" to "Sneaky",
+        "$mainUrl/tag/sister/page/%d/?orderby=date" to "Sister",
+        "$mainUrl/tag/threesome/page/%d/?orderby=date" to "Threesome",
+        "$mainUrl/tag/tushy/page/%d/?orderby=date" to "Tushy",
+        "$mainUrl/tag/teacher/page/%d/?orderby=date" to "Teacher",
+        "$mainUrl/tag/wife/page/%d/?orderby=date" to "Wife",
+        "$mainUrl/tag/waitress/page/%d/?orderby=date" to "Waitress",
+        "$mainUrl/tag/wedding/page/%d/?orderby=date" to "Wedding",
         "$mainUrl/tag/yoga/page/%d/?orderby=date" to "yoga",
         "$mainUrl/tag/workout/page/%d/?orderby=date" to "workout",
+        "$mainUrl/tag/sport/page/%d/?orderby=date" to "Sport",
+        "$mainUrl/tag/poolside/page/%d/?orderby=date" to "Pool Side",
 
     )
 
@@ -114,7 +116,7 @@ class Perverzija : MainAPI() {
             val url = if (query.contains(" ")) {
             "$mainUrl/page/$i/?s=${query.replace(" ", "+")}&orderby=date"
             } else {
-                "$mainUrl/advanced-search/?_sf_s=$query&_sfm_hls_processed=1&sf_paged=$i"
+                "$mainUrl/page/$i/?s=$query&orderby=date"
             }
 
             val results = app.get(url, interceptor = cfInterceptor).document
