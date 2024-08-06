@@ -20,7 +20,7 @@ import com.lagradost.cloudstream3.utils.loadExtractor
 import kotlinx.coroutines.delay
 import org.jsoup.nodes.Element
 
-class Perverzija : MainAPI() {
+class StudiosPerverzija : MainAPI() {
     override var name = "Perverzija"
     override var mainUrl = "https://tube.perverzija.com/"
     override val supportedTypes = setOf(TvType.NSFW)
