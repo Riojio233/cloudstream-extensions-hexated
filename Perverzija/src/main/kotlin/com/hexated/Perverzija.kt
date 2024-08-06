@@ -32,20 +32,10 @@ class Perverzija : MainAPI() {
 
     override val mainPage = mainPageOf(
         "$mainUrl/page/%d/" to "Home",
-        "$mainUrl/studio/page/%d/?orderby=view" to "Most Viewed",
-        "$mainUrl/studio/page/%d/?orderby=like" to "Most Liked",
-        "$mainUrl/featured-scenes/page/%d/?orderby=date" to "Featured",
-        "$mainUrl/featured-scenes/page/%d/?orderby=view" to "Featured Most Viewed",
-        "$mainUrl/featured-scenes/page/%d/?orderby=like" to "Featured Most Liked",
-        "$mainUrl/full-movie/page/%d/?orderby=date" to "Latest Movies",
-        "$mainUrl/full-movie/page/%d/?orderby=view" to "Most Viewed Movies",
-        "$mainUrl/full-movie/page/%d/?orderby=like" to "Most Liked Movies",
         "$mainUrl/tag/big-ass/page/%d/" to "Big Ass",
         "$mainUrl/tag/squirt/page/%d/" to "Squirting",
-        "$mainUrl/tag/yoga/page/%d/" to "Yoga",
-        "$mainUrl/tag/wife/page/%d/" to "Wife",
-        "$mainUrl/tag/massage/page/%d/" to "Massage",
-        "$mainUrl/tag/double-penetration/page/%d/" to "DP",
+        "$mainUrl/tag/massage/page/%d/" to "Massage",		
+	    "$mainUrl/studio/full-movie/page/%d/" to "Full Movies"
         "$mainUrl/studio/teamskeet/page/%d/" to "Team Skeet",
         "$mainUrl/studio/private/page/%d/" to "Private",
         "$mainUrl/studio/brazzers/page/%d/" to "Brazzers",
@@ -53,6 +43,7 @@ class Perverzija : MainAPI() {
         "$mainUrl/studio/realitykings/page/%d/" to "Reality Kings",
         "$mainUrl/studio/naughtyamerica/page/%d/" to "NaughtyAmerica",
         "$mainUrl/studio/nubiles/page/%d/" to "Nubiles",
+	    "$mainUrl/studio/vxn/page/%d/" to "VXN"
         "$mainUrl/studio/adulttime/page/%d/" to "Adult Time",
         "$mainUrl/studio/vxn/tushy/page/%d/" to "Tushy",
         "$mainUrl/studio/dorcelclub/page/%d/" to "DorcelClub",
@@ -77,14 +68,30 @@ class Perverzija : MainAPI() {
         "$mainUrl/studio/sexmex/page/%d/" to "SexMex",
         "$mainUrl/studio/pornworld/page/%d/" to "PornWorld",
         "$mainUrl/studio/hustler/page/%d/" to "Hustler",
+	    "$mainUrl/studio/pornworld/ddfnetwork/handsonhardcore/page/%d/" to "HANDS ON HARDCORE"
         "$mainUrl/studio/penthousegold/page/%d/" to "PenthouseGold",
         "$mainUrl/studio/babesnetwork/page/%d/" to "BabesNetwork",
         "$mainUrl/studio/pornfidelity/page/%d/" to "PornFidelity",
         "$mainUrl/studio/mypervyfamily/page/%d/" to "MyPervyFamily",
+	    "$mainUrl/studio/bangbros/assparade/page/%d/" to "ASSPARADE"
+	    "$mainUrl/studio/metro/page/%d/" to "METRO"
         "$mainUrl/studio/adulttime/puretaboo/page/%d/" to "PureTaboo",
+	    "$mainUrl/studio/brazzers/realwifestories/page/%d/" to "REAL WIFE STORIES"
+	    "$mainUrl/studio/vxn/vixen/page/%d/" to "VIXEN"
         "$mainUrl/studio/teamskeet/familystrokes/page/%d/" to "FamilyStrokes",
+	    "$mainUrl/studio/pervcity/page/%d/" to "PERVCITY"
         "$mainUrl/studio/teamskeet/daughterswap/page/%d/" to "DaughterSwap",
         "$mainUrl/studio/adulttime/21sextury/dpfanatics/page/%d/" to "DPFanatics",
+	    "$mainUrl/studio/wicked/page/%d/" to "WICKED"
+	    "$mainUrl/studio/vip4k/page/%d/" to "VIP4K"
+	    "$mainUrl/studio/metartnetwork/sexart/page/%d/" to "SEXART"
+	    "$mainUrl/studio/deviante/page/%d/" to "DEVIANTE"
+	    "$mainUrl/studio/elegantangel/page/%d/" to "ELEGANTANGEL"
+	    "$mainUrl/studio/adulttime/nurumassage/page/%d/" to "NURU MASSAGE"
+	    "$mainUrl/studio/adulttime/21sextury/assholefever/page/%d/" to "ASSHOLE FEVER"
+	    "$mainUrl/studio/brazzers/dirtymasseur/page/%d/" to "DIRTY MASSEUR"
+	    "$mainUrl/studio/teamskeet/bffs/page/%d/" to "BFFS"
+	    "$mainUrl/studio/brazzers/doctoradventures/page/%d/" to "DOCTOR ADVENTURES"
     )
 
     override suspend fun getMainPage(
