@@ -39,7 +39,7 @@ class Perverzija : MainAPI() {
         "$mainUrl/tag/caught/page/%d/?orderby=date" to "Caught",
         "$mainUrl/tag/cheating/page/%d/?orderby=date" to "Cheating",
         "$mainUrl/tag/cheating-wife/page/%d/?orderby=date" to "Cheating Wife",
-        "$mainUrl/tag/double-penetration/page/%d/?orderby=date" to "Double DP",
+        "$mainUrl/tag/double-penetration/page/%d/?orderby=date" to "Double Penetration",
         "$mainUrl/tag/doctor/page/%d/?orderby=date" to "Doctor",
         "$mainUrl/tag/family/page/%d/?orderby=date" to "Family",
         "$mainUrl/tag/family-taboo/page/%d/?orderby=date" to "Family Taboo",
