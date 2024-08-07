@@ -68,6 +68,8 @@ class Perverzija : MainAPI() {
         "$mainUrl/tag/workout/page/%d/?orderby=date" to "workout",
         "$mainUrl/tag/sport/page/%d/?orderby=date" to "Sport",
         "$mainUrl/tag/poolside/page/%d/?orderby=date" to "Pool Side",
+        "$mainUrl/tag/adventure/page/%d/?orderby=date" to "Adventure",
+        "$mainUrl/tag/tropical/page/%d/?orderby=date" to "Tropical",
         "$mainUrl/tag/swinger/page/%d/?orderby=date" to "Swingers",
 
     )
