@@ -32,18 +32,6 @@ class Perverzija : MainAPI() {
 
     override val mainPage = mainPageOf(
         "$mainUrl/page/%d/" to "Home",
-        "$mainUrl/studio/page/%d/?orderby=view" to "Most Viewed",
-        "$mainUrl/studio/page/%d/?orderby=like" to "Most Liked",
-        "$mainUrl/featured-scenes/page/%d/?orderby=date" to "Featured",
-        "$mainUrl/featured-scenes/page/%d/?orderby=view" to "Featured Most Viewed",
-        "$mainUrl/featured-scenes/page/%d/?orderby=like" to "Featured Most Liked",
-        "$mainUrl/full-movie/page/%d/?orderby=date" to "Latest Movies",
-        "$mainUrl/full-movie/page/%d/?orderby=view" to "Most Viewed Movies",
-        "$mainUrl/full-movie/page/%d/?orderby=like" to "Most Liked Movies",
-        "$mainUrl/studio/onlyfans/page/%d/?orderby=date" to "Recent Onlyfans",
-        "$mainUrl/studio/onlyfans/page/%d/?orderby=view" to "Most Viewed Onlyfans",
-        "$mainUrl/studio/onlyfans/page/%d/?orderby=like" to "Most Liked Onlyfans",
-        "$mainUrl/studio/onlyfans/page/%d/?orderby=comment" to "Most Commented Onlyfans",
         "$mainUrl/studio/vxn/page/%d/?orderby=date" to "Recent Vxn",
         "$mainUrl/studio/vxn/page/%d/?orderby=view" to "Most Viewed Vxn",
         "$mainUrl/studio/vxn/page/%d/?orderby=like" to "Most Liked Vxn",
@@ -144,7 +132,7 @@ class Perverzija : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
-        val maxPages = if (query.contains(" ")) 6 else 20
+        val maxPages = if (query.contains(" ")) 5 else 10
         for (i in 1..maxPages) {
             val url = if (query.contains(" ")) {
             "$mainUrl/page/$i/?s=${query.replace(" ", "+")}&orderby=date"
