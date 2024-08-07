@@ -68,7 +68,7 @@ class Perverzija : MainAPI() {
         "$mainUrl/tag/workout/page/%d/?orderby=date" to "workout",
         "$mainUrl/tag/sport/page/%d/?orderby=date" to "Sport",
         "$mainUrl/tag/poolside/page/%d/?orderby=date" to "Pool Side",
-        "$mainUrl/tag/swinger/page/%d/?orderby=date" to "Swinger",
+        "$mainUrl/tag/swinger/page/%d/?orderby=date" to "Swingers",
 
     )
 
@@ -112,7 +112,7 @@ class Perverzija : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
-        val maxPages = if (query.contains(" ")) 3 else 6
+        val maxPages = if (query.contains(" ")) 3 else 5
         for (i in 1..maxPages) {
             val url = if (query.contains(" ")) {
             "$mainUrl/page/$i/?s=${query.replace(" ", "+")}&orderby=date"
