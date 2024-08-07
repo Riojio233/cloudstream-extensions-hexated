@@ -134,7 +134,7 @@ class Perverzija : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
-        val maxPages = if (query.contains(" ")) 5 else 10
+        val maxPages = if (query.contains(" ")) 3 else 10
         for (i in 1..maxPages) {
             val url = if (query.contains(" ")) {
             "$mainUrl/page/$i/?s=${query.replace(" ", "+")}&orderby=date"
