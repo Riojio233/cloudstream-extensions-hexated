@@ -80,9 +80,15 @@ subprojects {
         implementation("com.github.Blatzar:NiceHttp:0.4.11") // http library
         implementation("org.jsoup:jsoup:1.17.2") // html parser
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.1")
-        implementation("io.karn:khttp-android:0.1.2")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
-        implementation("org.mozilla:rhino:1.7.14") //run JS
+        implementation("me.xdrop:fuzzywuzzy:1.4.0")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.8.0")
+        implementation("org.json:json:20231013")
+        implementation("com.faendir.rhino:rhino-android:1.6.0")
+        implementation("commons-codec:commons-codec:1.15")
+        implementation("com.github.mezhevikin:http-request-kotlin:0.0.5")
+        implementation("com.google.code.gson:gson:2.10")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1")
+        implementation("com.google.cloud:google-cloud-translate:1.94.4")
 
     }
 }
