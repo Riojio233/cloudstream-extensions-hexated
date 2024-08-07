@@ -32,76 +32,66 @@ class Perverzija : MainAPI() {
 
     override val mainPage = mainPageOf(
         "$mainUrl/page/%d/" to "Home",
-        "$mainUrl/studio/page/%d/?orderby=view" to "Most Viewed",
-        "$mainUrl/studio/page/%d/?orderby=like" to "Most Liked",
-        "$mainUrl/featured-scenes/page/%d/?orderby=date" to "Featured",
-        "$mainUrl/featured-scenes/page/%d/?orderby=view" to "Featured Most Viewed",
-        "$mainUrl/featured-scenes/page/%d/?orderby=like" to "Featured Most Liked",
-        "$mainUrl/full-movie/page/%d/?orderby=date" to "Latest Movies",
-        "$mainUrl/full-movie/page/%d/?orderby=view" to "Most Viewed Movies",
-        "$mainUrl/full-movie/page/%d/?orderby=like" to "Most Liked Movies",
-        "$mainUrl/studio/onlyfans/page/%d/?orderby=date" to "Recent Onlyfans",
-        "$mainUrl/studio/onlyfans/page/%d/?orderby=view" to "Most Viewed Onlyfans",
-        "$mainUrl/studio/onlyfans/page/%d/?orderby=like" to "Most Liked Onlyfans",
-        "$mainUrl/studio/onlyfans/page/%d/?orderby=comment" to "Most Commented Onlyfans",
-        "$mainUrl/studio/vxn/page/%d/?orderby=date" to "Recent Vxn",
-        "$mainUrl/studio/vxn/page/%d/?orderby=view" to "Most Viewed Vxn",
-        "$mainUrl/studio/vxn/page/%d/?orderby=like" to "Most Liked Vxn",
-        "$mainUrl/studio/vxn/page/%d/?orderby=comment" to "Most Commented Vxn",
-        "$mainUrl/studio/wicked/page/%d/?orderby=date" to "Wicked",
-        "$mainUrl/studio/twistysnetwork/page/%d/?orderby=date" to "Twistys Network",
-        "$mainUrl/studio/naughtyamerica/tonightsgirlfriend/page/%d/?orderby=date" to "Tonight's Girlfriend",
-        "$mainUrl/studio/nubiles/stepsiblingscaught/page/%d/?orderby=date" to "Stepsiblings Caught",
-        "$mainUrl/studio/penthousegold/page/%d/?orderby=date" to "Penthouse Gold",
-        "$mainUrl/studio/pornpros/page/%d/?orderby=date" to "PornPros",
-        "$mainUrl/studio/dogfart/page/%d/?orderby=date" to "Dog Fart",
-        "$mainUrl/studio/cherrypimps/page/%d/?orderby=date" to "Cherry Pimps",
-        "$mainUrl/tag/wife/page/%d/?orderby=date" to "Wife",
-        "$mainUrl/tag/pov/page/%d/?orderby=date" to "POV",
-        "$mainUrl/tag/18-year-old/page/%d/?orderby=date" to "18 Year Old",
-        "$mainUrl/tag/watching/page/%d/?orderby=date" to "Watching",
-        "$mainUrl/tag/taboo/page/%d/?orderby=date" to "Taboo",
-        "$mainUrl/tag/sister/page/%d/?orderby=date" to "Siter",
-        "$mainUrl/tag/double-penetration/page/%d/?orderby=date" to "DP",
-        "$mainUrl/studio/teamskeet/page/%d/?orderby=date" to "Team Skeet",
-        "$mainUrl/studio/private/page/%d/?orderby=date" to "Private",
-        "$mainUrl/studio/brazzers/page/%d/?orderby=date" to "Brazzers",
-        "$mainUrl/studio/bangbros/page/%d/?orderby=date" to "Bang Bros",
-        "$mainUrl/studio/realitykings/page/%d/?orderby=date" to "Reality Kings",
-        "$mainUrl/studio/naughtyamerica/page/%d/?orderby=date" to "NaughtyAmerica",
-        "$mainUrl/studio/nubiles/page/%d/?orderby=date" to "Nubiles",
-        "$mainUrl/studio/adulttime/page/%d/?orderby=date" to "Adult Time",
-        "$mainUrl/studio/vxn/tushy/page/%d/?orderby=date" to "Tushy",
-        "$mainUrl/studio/dorcelclub/page/%d/?orderby=date" to "DorcelClub",
-        "$mainUrl/studio/pornworld/ddfnetwork/page/%d/?orderby=date" to "DDFNetwork",
-        "$mainUrl/studio/mylf/page/%d/?orderby=date" to "Mylf",
-        "$mainUrl/studio/pornpros/page/%d/?orderby=date" to "PornPros",
-        "$mainUrl/studio/evilangel/page/%d/?orderby=date" to "EvilAngel",
-        "$mainUrl/studio/digitalplayground/page/%d/?orderby=date" to "Digital Playground",
-        "$mainUrl/studio/kbproductions/page/%d/?orderby=date" to "KBProductions",
-        "$mainUrl/studio/fakehub/page/%d/?orderby=date" to "FakeHub",
-        "$mainUrl/studio/sexyhub/page/%d/?orderby=date" to "SexyHub",
-        "$mainUrl/studio/milehighmedia/page/%d/?orderby=date" to "MileHighMedia",
-        "$mainUrl/studio/mofos/page/%d/?orderby=date" to "Mofos",
-        "$mainUrl/studio/adulttime/21sextury/page/%d/?orderby=date" to "21Sextury",
-        "$mainUrl/studio/fullpornnetwork/page/%d/?orderby=date" to "FullPornNetwork",
-        "$mainUrl/studio/vxn/blacked/page/%d/?orderby=date" to "Blacked",
-        "$mainUrl/studio/bang/page/%d/?orderby=date" to "Bang",
-        "$mainUrl/studio/newsensations/page/%d/?orderby=date" to "NewSensations",
-        "$mainUrl/studio/letsdoeit/page/%d/?orderby=date" to "LetsDoeIt",
-        "$mainUrl/studio/julesjordan/page/%d/?orderby=date" to "JulesJordan",
-        "$mainUrl/studio/xempire/page/%d/?orderby=date" to "XEmpire",
-        "$mainUrl/studio/sexmex/page/%d/?orderby=date" to "SexMex",
-        "$mainUrl/studio/pornworld/page/%d/?orderby=date" to "PornWorld",
-        "$mainUrl/studio/hustler/page/%d/?orderby=date" to "Hustler",
-        "$mainUrl/studio/penthousegold/page/%d/?orderby=date" to "PenthouseGold",
-        "$mainUrl/studio/babesnetwork/page/%d/?orderby=date" to "BabesNetwork",
-        "$mainUrl/studio/pornfidelity/page/%d/?orderby=date" to "PornFidelity",
-        "$mainUrl/studio/mypervyfamily/page/%d/?orderby=date" to "MyPervyFamily",
-        "$mainUrl/studio/adulttime/puretaboo/page/%d/?orderby=date" to "PureTaboo",
-        "$mainUrl/studio/teamskeet/familystrokes/page/%d/?orderby=date" to "FamilyStrokes",
-        "$mainUrl/studio/teamskeet/daughterswap/page/%d/?orderby=date" to "DaughterSwap",
-        "$mainUrl/studio/adulttime/21sextury/dpfanatics/page/%d/?orderby=date" to "DPFanatics",
+        "$mainUrl/tag/big-ass/page/%d/" to "Big Ass",
+        "$mainUrl/tag/squirt/page/%d/" to "Squirting",
+        "$mainUrl/tag/massage/page/%d/" to "Massage",		
+	    "$mainUrl/studio/full-movie/page/%d/" to "Full Movies"
+        "$mainUrl/studio/teamskeet/page/%d/" to "Team Skeet",
+        "$mainUrl/studio/private/page/%d/" to "Private",
+        "$mainUrl/studio/brazzers/page/%d/" to "Brazzers",
+        "$mainUrl/studio/bangbros/page/%d/" to "Bang Bros",
+        "$mainUrl/studio/realitykings/page/%d/" to "Reality Kings",
+        "$mainUrl/studio/naughtyamerica/page/%d/" to "NaughtyAmerica",
+        "$mainUrl/studio/nubiles/page/%d/" to "Nubiles",
+	    "$mainUrl/studio/vxn/page/%d/" to "VXN"
+        "$mainUrl/studio/adulttime/page/%d/" to "Adult Time",
+        "$mainUrl/studio/vxn/tushy/page/%d/" to "Tushy",
+        "$mainUrl/studio/dorcelclub/page/%d/" to "DorcelClub",
+        "$mainUrl/studio/pornworld/ddfnetwork/page/%d/" to "DDFNetwork",
+        "$mainUrl/studio/mylf/page/%d/" to "Mylf",
+        "$mainUrl/studio/pornpros/page/%d/" to "PornPros",
+        "$mainUrl/studio/evilangel/page/%d/" to "EvilAngel",
+        "$mainUrl/studio/digitalplayground/page/%d/" to "Digital Playground",
+        "$mainUrl/studio/kbproductions/page/%d/" to "KBProductions",
+        "$mainUrl/studio/fakehub/page/%d/" to "FakeHub",
+        "$mainUrl/studio/sexyhub/page/%d/" to "SexyHub",
+        "$mainUrl/studio/milehighmedia/page/%d/" to "MileHighMedia",
+        "$mainUrl/studio/mofos/page/%d/" to "Mofos",
+        "$mainUrl/studio/adulttime/21sextury/page/%d/" to "21Sextury",
+        "$mainUrl/studio/fullpornnetwork/page/%d/" to "FullPornNetwork",
+        "$mainUrl/studio/vxn/blacked/page/%d/" to "Blacked",
+        "$mainUrl/studio/bang/page/%d/" to "Bang",
+        "$mainUrl/studio/newsensations/page/%d/" to "NewSensations",
+        "$mainUrl/studio/letsdoeit/page/%d/" to "LetsDoeIt",
+        "$mainUrl/studio/julesjordan/page/%d/" to "JulesJordan",
+        "$mainUrl/studio/xempire/page/%d/" to "XEmpire",
+        "$mainUrl/studio/sexmex/page/%d/" to "SexMex",
+        "$mainUrl/studio/pornworld/page/%d/" to "PornWorld",
+        "$mainUrl/studio/hustler/page/%d/" to "Hustler",
+	    "$mainUrl/studio/pornworld/ddfnetwork/handsonhardcore/page/%d/" to "HANDS ON HARDCORE"
+        "$mainUrl/studio/penthousegold/page/%d/" to "PenthouseGold",
+        "$mainUrl/studio/babesnetwork/page/%d/" to "BabesNetwork",
+        "$mainUrl/studio/pornfidelity/page/%d/" to "PornFidelity",
+        "$mainUrl/studio/mypervyfamily/page/%d/" to "MyPervyFamily",
+	    "$mainUrl/studio/bangbros/assparade/page/%d/" to "ASSPARADE"
+	    "$mainUrl/studio/metro/page/%d/" to "METRO"
+        "$mainUrl/studio/adulttime/puretaboo/page/%d/" to "PureTaboo",
+	    "$mainUrl/studio/brazzers/realwifestories/page/%d/" to "REAL WIFE STORIES"
+	    "$mainUrl/studio/vxn/vixen/page/%d/" to "VIXEN"
+        "$mainUrl/studio/teamskeet/familystrokes/page/%d/" to "FamilyStrokes",
+	    "$mainUrl/studio/pervcity/page/%d/" to "PERVCITY"
+        "$mainUrl/studio/teamskeet/daughterswap/page/%d/" to "DaughterSwap",
+        "$mainUrl/studio/adulttime/21sextury/dpfanatics/page/%d/" to "DPFanatics",
+	    "$mainUrl/studio/wicked/page/%d/" to "WICKED"
+	    "$mainUrl/studio/vip4k/page/%d/" to "VIP4K"
+	    "$mainUrl/studio/metartnetwork/sexart/page/%d/" to "SEXART"
+	    "$mainUrl/studio/deviante/page/%d/" to "DEVIANTE"
+	    "$mainUrl/studio/elegantangel/page/%d/" to "ELEGANTANGEL"
+	    "$mainUrl/studio/adulttime/nurumassage/page/%d/" to "NURU MASSAGE"
+	    "$mainUrl/studio/adulttime/21sextury/assholefever/page/%d/" to "ASSHOLE FEVER"
+	    "$mainUrl/studio/brazzers/dirtymasseur/page/%d/" to "DIRTY MASSEUR"
+	    "$mainUrl/studio/teamskeet/bffs/page/%d/" to "BFFS"
+	    "$mainUrl/studio/brazzers/doctoradventures/page/%d/" to "DOCTOR ADVENTURES"
     )
 
     override suspend fun getMainPage(
@@ -144,7 +134,7 @@ class Perverzija : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse> {
         val searchResponse = mutableListOf<SearchResponse>()
-        val maxPages = if (query.contains(" ")) 6 else 20
+        val maxPages = if (query.contains(" ")) 5 else 10
         for (i in 1..maxPages) {
             val url = if (query.contains(" ")) {
             "$mainUrl/page/$i/?s=${query.replace(" ", "+")}&orderby=date"
